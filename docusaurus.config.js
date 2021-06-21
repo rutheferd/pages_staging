@@ -28,19 +28,19 @@ module.exports = {
       },
       items: [
         {
-          href: '/',
+          href: '/../',
           label: 'Home',
           position: 'left',
           target: '_top',
         },
         {
-          href: '/docs',
+          href: '/../docs',
           label: 'Docs',
           position: 'right',
           target: '_top',
         },
         {
-          to: '/blog',
+          to: '/',
           label: 'Blog',
           position: 'right',
         },
@@ -62,7 +62,7 @@ module.exports = {
             // },
             {
               label: 'Support',
-              to: '/docs/introduction/support',
+              to: '/../docs/introduction/support',
             },
           ],
         },
@@ -106,8 +106,9 @@ module.exports = {
       {
         blog: {
           showReadingTime: true,
+          routeBasePath: '/',
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          // editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
