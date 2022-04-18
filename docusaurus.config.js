@@ -3,14 +3,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Fathym',
-  tagline: 'More Technology. More Accessible. To More People.',
+  title: 'GTRI',
+  tagline: 'Creating the next.',
   url: 'https://www.fathym.com',
   baseUrl: '/blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'fathym', // Usually your GitHub org/user name.
+  organizationName: 'GTRI', // Usually your GitHub org/user name.
   projectName: 'public-web-blog', // Usually your repo name.
   themeConfig: {
     colorMode: {
@@ -18,13 +18,13 @@ module.exports = {
       defaultMode: 'dark',
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
-      disableSwitch: true,
+      disableSwitch: false,
     },
     navbar: {
-      // title: 'Fathym',
+      // title: 'GTRI',
       logo: {
-        alt: 'Fathym',
-        src: 'img/Fathym-logo-white-01.png',
+        alt: 'GTRI',
+        src: 'img/GTRI-2color.png',
       },
       items: [
         {
@@ -33,16 +33,17 @@ module.exports = {
           position: 'left',
           target: '_top',
         },
-        {
-          href: '/../docs',
-          label: 'Docs',
-          position: 'right',
-          target: '_top',
-        },
+        // {
+        //   href: '/../docs',
+        //   label: 'Docs',
+        //   position: 'right',
+        //   target: '_top',
+        // },
         {
           to: '/',
           label: 'Blog',
-          position: 'right',
+          position: 'left',
+          target: '_top',
         },
       ],
     },
@@ -84,7 +85,7 @@ module.exports = {
           ],
         },
         {
-          title: 'Powered by Fathym',
+          title: 'Check Out GTRI',
           items: [
             {
               label: 'Learn More',
@@ -93,7 +94,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Fathym, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} GTRI, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
